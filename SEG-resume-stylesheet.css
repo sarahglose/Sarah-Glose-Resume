@@ -1,0 +1,67 @@
+
+
+body {
+	background: url(brickwall.png);
+	margin-top: -10px;
+}
+
+#myHeader {
+	background-color: #84B6A7;
+	box-shadow: 1px 1px 5px #BCABAC;
+	color: black;
+	padding: 40px;
+	margin: 00px;
+	text-align: left;
+	font-family: "Helvetica";
+	font-size: 40px;
+}
+
+.photo{
+	float: right;
+	border: 10px #BCABAC solid;
+}
+
+.info{
+	padding: 10px;
+	padding-left: 50px;
+	height: 240px;
+}
+
+.tel{
+	font-family: "Calibri";
+	font-size: 20px;
+	text-align: left;
+	margin-left: 10px;
+	padding: 0 20px;
+	line-height: 10px;
+}
+
+.resume-block {
+	border: 5px #987D98 solid;
+	padding: 20px;
+	margin: 25px;
+	font-family: "Calibri";
+}
+
+@media (min-width: 640px) {
+	.resume-block {
+	border: 5px #987D98 solid;
+	padding: 30px;
+	margin: 35px;
+	}
+}
+
+@media (min-width: 768px) {
+	.resume-block {
+	margin: 75px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.resume-block {
+	}
+}
+
+
+
+
